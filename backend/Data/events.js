@@ -42,6 +42,10 @@ const events = [
     },
     {
         id:6,
-        EventName:''
+        Eventname:'Bharathon',
+        Category:'hackathon',
+        Locaton:'Chitkara',
+        Date:'22 sept 2026',
+        Description:'its a hackathon in badi either come here for hackathon or just enjoy the vies of himachal'
     }
 ]
