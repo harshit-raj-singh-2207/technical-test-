@@ -39,5 +39,9 @@ const events = [
         Location:'Thaapar',
         Date:'19 aug 2026',
         Description: 'it was a shitty ideathon'
+    },
+    {
+        id:6,
+        EventName:''
     }
 ]

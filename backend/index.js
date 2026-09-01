@@ -39,6 +39,7 @@ app.get('/events/:id',(req,res)=>{
     const event = events.find((event)=>{
         event.id===id
     })
+    
     res.status(200).json(event)
 })
 
