@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useState } from 'react';
 import {useNavigate} from 'react-router-dom'
-import Home from '../Home/Home'; 
+
 
 
 const Login = () => {
@@ -18,9 +18,7 @@ const Login = () => {
                 email,
                 password
             })
-            if(!response.ok){
-                throw new Error("Can't get data")
-            }
+            console.log(response.data)
             navigate('/home')
 
         } catch(error){
